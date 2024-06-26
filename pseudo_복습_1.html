@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<style>
+  a:link{
+    color: black;
+  }
+  a:visited{
+    color: red;
+  } 
+  /* visited /link 태그를 썼는데 왜 방문함 방문안함 색이 바뀐거지 ?  */
+  a:hover{ color:yellow;
+   }
+  a:active{color: green;
+  }
+  a:focus{
+    color: white;
+  }
+  input:focus{
+    background-color: black;
+    color: white;
+  }
+  /* a -> 마우스키 "클릭"하면 나타나는 색깔 */
+
+  /* 마우스 "올려"놨을때 나타나는 색깔 // 
+  액티브 호버가 동시에 일어나면 뒤에있는게 우선 됨 // 이 식의 경우 호버가 우선됨*/
+</style>
+  </head>
+  <body>
+    <a href="https://opentutorials.org">방문함</a>
+    <a href="https://a.a">방문안함</a>
+  </body>
+</html>
