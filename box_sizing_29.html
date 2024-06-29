@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <style>
+    *{
+      box-sizing: border-box;
+    }
+    /* 보더값의 차이 때문에 달라지는 박스 사이즈를 동일하게 설정 가능
+    * -> 모든 의미 */
+div{
+margin: 10px;
+width: 150px;
+box-sizing: border-box;
+}
+#small{
+border: 10px solid black;
+}
+#large{ border: 30px solid black;
+
+}
+   </style> 
+  </head>
+  <body>
+<div id="small">Hello</div>
+<div id="large">Hello</div>    
+  </body>
+</html>
