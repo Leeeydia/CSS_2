@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+  body{
+    padding-top: 30px;
+  }
+  /* me가 other 안가리게 설정 */
+  #parent, #other{border: 10px solid tomato;}
+  #large{
+  height: 10000px;
+  background-color: tomato;
+   }
+    #me{
+        background-color: black;
+        color: white;
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 30px;
+        text-align: center;
+      }    
+        /*fixed-> 스크롤 내려도 위치 변화 x  */
+    </style>
+  </head>
+  <body>
+    <div id="other">other</div>
+    
+    <div id="parent">
+        parent
+        <div id="me">me</div>
+      </div>
+   
+    <div id="large" >large</div>
+  </body>
+</html>

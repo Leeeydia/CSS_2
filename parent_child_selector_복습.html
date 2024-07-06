@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<style>
+  ul li{color: red;}
+  #lecture>li{border: 1px solid red;}
+  /* > 직계자손 */
+  ul,ol{background-color: aqua;}
+</style>
+  </head>
+  <body>
+  <ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+  </ul>
+  <!-- 목차 생성 -->
+  <ol id="lecture">
+    <li>HTML</li>
+    <li>CSS</li>
+    <ol>
+      <li>Selector</li>
+      <li>declaration</li>
+    </ol>
+    <!-- ???? 이부분이 빨간 글로 안그어짐 -->
+    <li>JavaScript</li>
+  </ol>
+    <!-- 자동순번 목차 생성 -->
+  </body>
+</html>
