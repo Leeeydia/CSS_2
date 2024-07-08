@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+a{
+  font-size: 3rem;
+  display: inline-block;
+  /* transition-property: all;
+  transition-duration: 0.1s; */
+  /* 매끄럽게 */
+  transition: font-size 1s, transform 0.1s;
+  /* 폰트사이즈 줄어듦 1초, 이동 0.1초 */
+  transition-delay: 1s;
+}
+  a:active{
+    transform:translate(20px, 20px);
+    font-size: 2rem;
+  }
+
+    </style>
+  </head>
+  <body>
+    <a href="#">Click</a>
+  </body>
+</html>
